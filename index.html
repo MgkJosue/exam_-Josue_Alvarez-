@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Josue I. Alvarez Galarza - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Josue I. Alvarez Galarza</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm a software development student who enjoys learning and building things with code. Over the past 
+                couple of years, I've been working on different projects using technologies like Flutter, Node.js, Python, 
+                and React. I'm still learning every day and always eager to take on new challenges and improve my skills.
+            </p>
+            <p>
+                I'm currently studying cybersecurity at the Canadian College of Technology and Business in Vancouver, BC. 
+                As an international student, I'm looking for part-time work opportunities where I can contribute while 
+                continuing to grow as a developer. I really enjoy working with mobile apps, web development, and exploring 
+                new technologies.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Python, JavaScript, TypeScript</li>
+                <li>ReactJS, HTML, CSS</li>
+                <li>Flutter (BLoC, Singleton), Dart</li>
+                <li>Node.js, Express.js, FastAPI</li>
+                <li>AWS EC2, Docker</li>
+                <li>MongoDB, PostgreSQL, MySQL</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                
+                <div>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject of your message">
+                </div>
+                
+                <div>
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea>
+                </div>
+                
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Josue I. Alvarez Galarza. All rights reserved.</p>
+    </footer>
 </body>
 </html>
