@@ -1,0 +1,91 @@
+/* Task C1: Setup & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/* Task C2: Layout Styling */
+header {
+    background-color: rgb(71, 121, 212);
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Task C3: Box Model & Form Styling */
+input, textarea {
+    box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+button[type="reset"] {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+section {
+    border: 1px solid gray;
+}
+
+/* Task C4: Skills Layout */
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+}
